@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48EE578C226DB04000EA9EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE578B226DB04000EA9EA1 /* AppDelegate.m */; };
+		48EE578F226DB04000EA9EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE578E226DB04000EA9EA1 /* ViewController.m */; };
+		48EE5792226DB04000EA9EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EE5790226DB04000EA9EA1 /* Main.storyboard */; };
+		48EE5794226DB04100EA9EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EE5793226DB04100EA9EA1 /* Assets.xcassets */; };
+		48EE5797226DB04100EA9EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EE5795226DB04100EA9EA1 /* LaunchScreen.storyboard */; };
+		48EE579A226DB04100EA9EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE5799226DB04100EA9EA1 /* main.m */; };
+		48EE57A4226DB04100EA9EA1 /* KZReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE57A3226DB04100EA9EA1 /* KZReportTests.m */; };
+		48EE57AF226DB04100EA9EA1 /* KZReportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE57AE226DB04100EA9EA1 /* KZReportUITests.m */; };
+		48EE57BF226DB07800EA9EA1 /* KZReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE57BD226DB07700EA9EA1 /* KZReport.m */; };
+		48EE57C0226DB07800EA9EA1 /* KZReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE57BD226DB07700EA9EA1 /* KZReport.m */; };
+		48EE57C1226DB07800EA9EA1 /* KZReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EE57BD226DB07700EA9EA1 /* KZReport.m */; };
+		7B29C7CDF99E825EBE759F0C /* libPods-KZReport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF154F69A08991B037DDAFE /* libPods-KZReport.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48EE57A0226DB04100EA9EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EE577F226DB04000EA9EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EE5786226DB04000EA9EA1;
+			remoteInfo = KZReport;
+		};
+		48EE57AB226DB04100EA9EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EE577F226DB04000EA9EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EE5786226DB04000EA9EA1;
+			remoteInfo = KZReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48EE5787226DB04000EA9EA1 /* KZReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EE578A226DB04000EA9EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48EE578B226DB04000EA9EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48EE578D226DB04000EA9EA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48EE578E226DB04000EA9EA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48EE5791226DB04000EA9EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48EE5793226DB04100EA9EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48EE5796226DB04100EA9EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48EE5798226DB04100EA9EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EE5799226DB04100EA9EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48EE579F226DB04100EA9EA1 /* KZReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EE57A3226DB04100EA9EA1 /* KZReportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZReportTests.m; sourceTree = "<group>"; };
+		48EE57A5226DB04100EA9EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EE57AA226DB04100EA9EA1 /* KZReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EE57AE226DB04100EA9EA1 /* KZReportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZReportUITests.m; sourceTree = "<group>"; };
+		48EE57B0226DB04100EA9EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EE57BD226DB07700EA9EA1 /* KZReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZReport.m; sourceTree = "<group>"; };
+		48EE57BE226DB07700EA9EA1 /* KZReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZReport.h; sourceTree = "<group>"; };
+		48EE57C2226DB47B00EA9EA1 /* KZReport.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = KZReport.podspec; path = ../../KZReport.podspec; sourceTree = "<group>"; };
+		628B4E009879D1CACB31EEC4 /* Pods-KZReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZReport.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZReport/Pods-KZReport.release.xcconfig"; sourceTree = "<group>"; };
+		7BF154F69A08991B037DDAFE /* libPods-KZReport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KZReport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F2AAD9927FA3947C11EFB4 /* Pods-KZReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZReport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZReport/Pods-KZReport.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EE5784226DB04000EA9EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B29C7CDF99E825EBE759F0C /* libPods-KZReport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE579C226DB04100EA9EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE57A7226DB04100EA9EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D66DFB044179E75655D0A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82F2AAD9927FA3947C11EFB4 /* Pods-KZReport.debug.xcconfig */,
+				628B4E009879D1CACB31EEC4 /* Pods-KZReport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48EE577E226DB04000EA9EA1 = {
+			isa = PBXGroup;
+			children = (
+				48EE5789226DB04000EA9EA1 /* KZReport */,
+				48EE57A2226DB04100EA9EA1 /* KZReportTests */,
+				48EE57AD226DB04100EA9EA1 /* KZReportUITests */,
+				48EE5788226DB04000EA9EA1 /* Products */,
+				3D66DFB044179E75655D0A06 /* Pods */,
+				4BA6AC6E470672EB79F35A86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48EE5788226DB04000EA9EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EE5787226DB04000EA9EA1 /* KZReport.app */,
+				48EE579F226DB04100EA9EA1 /* KZReportTests.xctest */,
+				48EE57AA226DB04100EA9EA1 /* KZReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EE5789226DB04000EA9EA1 /* KZReport */ = {
+			isa = PBXGroup;
+			children = (
+				48EE57C2226DB47B00EA9EA1 /* KZReport.podspec */,
+				48EE57BC226DB06700EA9EA1 /* Classes */,
+				48EE578A226DB04000EA9EA1 /* AppDelegate.h */,
+				48EE578B226DB04000EA9EA1 /* AppDelegate.m */,
+				48EE578D226DB04000EA9EA1 /* ViewController.h */,
+				48EE578E226DB04000EA9EA1 /* ViewController.m */,
+				48EE5790226DB04000EA9EA1 /* Main.storyboard */,
+				48EE5793226DB04100EA9EA1 /* Assets.xcassets */,
+				48EE5795226DB04100EA9EA1 /* LaunchScreen.storyboard */,
+				48EE5798226DB04100EA9EA1 /* Info.plist */,
+				48EE5799226DB04100EA9EA1 /* main.m */,
+			);
+			path = KZReport;
+			sourceTree = "<group>";
+		};
+		48EE57A2226DB04100EA9EA1 /* KZReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				48EE57A3226DB04100EA9EA1 /* KZReportTests.m */,
+				48EE57A5226DB04100EA9EA1 /* Info.plist */,
+			);
+			path = KZReportTests;
+			sourceTree = "<group>";
+		};
+		48EE57AD226DB04100EA9EA1 /* KZReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48EE57AE226DB04100EA9EA1 /* KZReportUITests.m */,
+				48EE57B0226DB04100EA9EA1 /* Info.plist */,
+			);
+			path = KZReportUITests;
+			sourceTree = "<group>";
+		};
+		48EE57BC226DB06700EA9EA1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48EE57BE226DB07700EA9EA1 /* KZReport.h */,
+				48EE57BD226DB07700EA9EA1 /* KZReport.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4BA6AC6E470672EB79F35A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF154F69A08991B037DDAFE /* libPods-KZReport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EE5786226DB04000EA9EA1 /* KZReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EE57B3226DB04100EA9EA1 /* Build configuration list for PBXNativeTarget "KZReport" */;
+			buildPhases = (
+				557C356A732B0495AD0B6964 /* [CP] Check Pods Manifest.lock */,
+				48EE5783226DB04000EA9EA1 /* Sources */,
+				48EE5784226DB04000EA9EA1 /* Frameworks */,
+				48EE5785226DB04000EA9EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZReport;
+			productName = KZReport;
+			productReference = 48EE5787226DB04000EA9EA1 /* KZReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48EE579E226DB04100EA9EA1 /* KZReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EE57B6226DB04100EA9EA1 /* Build configuration list for PBXNativeTarget "KZReportTests" */;
+			buildPhases = (
+				48EE579B226DB04100EA9EA1 /* Sources */,
+				48EE579C226DB04100EA9EA1 /* Frameworks */,
+				48EE579D226DB04100EA9EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EE57A1226DB04100EA9EA1 /* PBXTargetDependency */,
+			);
+			name = KZReportTests;
+			productName = KZReportTests;
+			productReference = 48EE579F226DB04100EA9EA1 /* KZReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48EE57A9226DB04100EA9EA1 /* KZReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EE57B9226DB04100EA9EA1 /* Build configuration list for PBXNativeTarget "KZReportUITests" */;
+			buildPhases = (
+				48EE57A6226DB04100EA9EA1 /* Sources */,
+				48EE57A7226DB04100EA9EA1 /* Frameworks */,
+				48EE57A8226DB04100EA9EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EE57AC226DB04100EA9EA1 /* PBXTargetDependency */,
+			);
+			name = KZReportUITests;
+			productName = KZReportUITests;
+			productReference = 48EE57AA226DB04100EA9EA1 /* KZReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EE577F226DB04000EA9EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BaiKaiLeBeiShui;
+				TargetAttributes = {
+					48EE5786226DB04000EA9EA1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					48EE579E226DB04100EA9EA1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 48EE5786226DB04000EA9EA1;
+					};
+					48EE57A9226DB04100EA9EA1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 48EE5786226DB04000EA9EA1;
+					};
+				};
+			};
+			buildConfigurationList = 48EE5782226DB04000EA9EA1 /* Build configuration list for PBXProject "KZReport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48EE577E226DB04000EA9EA1;
+			productRefGroup = 48EE5788226DB04000EA9EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EE5786226DB04000EA9EA1 /* KZReport */,
+				48EE579E226DB04100EA9EA1 /* KZReportTests */,
+				48EE57A9226DB04100EA9EA1 /* KZReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EE5785226DB04000EA9EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EE5797226DB04100EA9EA1 /* LaunchScreen.storyboard in Resources */,
+				48EE5794226DB04100EA9EA1 /* Assets.xcassets in Resources */,
+				48EE5792226DB04000EA9EA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE579D226DB04100EA9EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE57A8226DB04100EA9EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		557C356A732B0495AD0B6964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KZReport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EE5783226DB04000EA9EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EE578F226DB04000EA9EA1 /* ViewController.m in Sources */,
+				48EE57BF226DB07800EA9EA1 /* KZReport.m in Sources */,
+				48EE579A226DB04100EA9EA1 /* main.m in Sources */,
+				48EE578C226DB04000EA9EA1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE579B226DB04100EA9EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EE57A4226DB04100EA9EA1 /* KZReportTests.m in Sources */,
+				48EE57C0226DB07800EA9EA1 /* KZReport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EE57A6226DB04100EA9EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EE57AF226DB04100EA9EA1 /* KZReportUITests.m in Sources */,
+				48EE57C1226DB07800EA9EA1 /* KZReport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48EE57A1226DB04100EA9EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EE5786226DB04000EA9EA1 /* KZReport */;
+			targetProxy = 48EE57A0226DB04100EA9EA1 /* PBXContainerItemProxy */;
+		};
+		48EE57AC226DB04100EA9EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EE5786226DB04000EA9EA1 /* KZReport */;
+			targetProxy = 48EE57AB226DB04100EA9EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48EE5790226DB04000EA9EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EE5791226DB04000EA9EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48EE5795226DB04100EA9EA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EE5796226DB04100EA9EA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48EE57B1226DB04100EA9EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48EE57B2226DB04100EA9EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48EE57B4226DB04100EA9EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F2AAD9927FA3947C11EFB4 /* Pods-KZReport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				INFOPLIST_FILE = KZReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48EE57B5226DB04100EA9EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628B4E009879D1CACB31EEC4 /* Pods-KZReport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				INFOPLIST_FILE = KZReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48EE57B7226DB04100EA9EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				INFOPLIST_FILE = KZReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZReport.app/KZReport";
+			};
+			name = Debug;
+		};
+		48EE57B8226DB04100EA9EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				INFOPLIST_FILE = KZReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZReport.app/KZReport";
+			};
+			name = Release;
+		};
+		48EE57BA226DB04100EA9EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				INFOPLIST_FILE = KZReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZReport;
+			};
+			name = Debug;
+		};
+		48EE57BB226DB04100EA9EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				INFOPLIST_FILE = KZReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZReport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EE5782226DB04000EA9EA1 /* Build configuration list for PBXProject "KZReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EE57B1226DB04100EA9EA1 /* Debug */,
+				48EE57B2226DB04100EA9EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EE57B3226DB04100EA9EA1 /* Build configuration list for PBXNativeTarget "KZReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EE57B4226DB04100EA9EA1 /* Debug */,
+				48EE57B5226DB04100EA9EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EE57B6226DB04100EA9EA1 /* Build configuration list for PBXNativeTarget "KZReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EE57B7226DB04100EA9EA1 /* Debug */,
+				48EE57B8226DB04100EA9EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EE57B9226DB04100EA9EA1 /* Build configuration list for PBXNativeTarget "KZReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EE57BA226DB04100EA9EA1 /* Debug */,
+				48EE57BB226DB04100EA9EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EE577F226DB04000EA9EA1 /* Project object */;
+}
